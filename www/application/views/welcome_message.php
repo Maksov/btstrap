@@ -14,7 +14,7 @@
   <input type="radio" name="rbt" value="З">З</input>
   <input type="radio" name="rbt" value="И">И</input>
 </p>
-    <p><select name="hero">
+    <p><select name="admorgan">
         <option selected disabled>Выберите инспекцию</option>
         <option value="8600">УФНС</option>
         <option value="8601">МРИ№1</option>

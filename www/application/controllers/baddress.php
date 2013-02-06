@@ -15,10 +15,13 @@ class Baddress extends MY_Controller {
 		/*
 		 *set up title and keywords (if not the default in custom.php config file will be set) 
 		 */
+
+        if(($litera=$this->input->post('rbt'))&&($admorgan=$this->input->post('admorgan')))  echo "Vse OK";
+            else $this->_render('welcome_message');
 		
 		
 		
-		$this->_render('welcome_message');
+		//;
 	}
 	
 }
