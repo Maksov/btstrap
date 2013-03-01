@@ -1,69 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a8b0e9-60f9-4fba-8219-7dbe8b86fe5b" name="Default" comment="5 commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/application/controllers/ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/application/views/pages/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/css/user.css" />
-      <change type="DELETED" beforePath="C:\openserver\domains\btstrap\www\clean\system\database\drivers\sqlsrv\sqlsrv_driver.php" afterPath="" />
+    <list default="true" id="f1a8b0e9-60f9-4fba-8219-7dbe8b86fe5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/js/ajax_litera.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/js/libs/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/js/libs/jquery-ui-1.10.1.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/js/libs/vertical-tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources/js/vertical-tabs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/config/autoload.php" afterPath="$PROJECT_DIR$/www/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/config/database.php" afterPath="$PROJECT_DIR$/www/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/config/routes.php" afterPath="$PROJECT_DIR$/www/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/controllers/baddress.php" afterPath="$PROJECT_DIR$/www/application/controllers/baddress.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/views/template/footer.php" afterPath="$PROJECT_DIR$/www/application/views/template/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/views/template/header.php" afterPath="$PROJECT_DIR$/www/application/views/template/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/views/template/main.php" afterPath="$PROJECT_DIR$/www/application/views/template/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/views/template/skeleton.php" afterPath="$PROJECT_DIR$/www/application/views/template/skeleton.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/www/application/views/welcome_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources/js/script.js" afterPath="$PROJECT_DIR$/www/resources/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB.php" afterPath="$PROJECT_DIR$/www/system/database/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB_cache.php" afterPath="$PROJECT_DIR$/www/system/database/DB_cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB_driver.php" afterPath="$PROJECT_DIR$/www/system/database/DB_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB_forge.php" afterPath="$PROJECT_DIR$/www/system/database/DB_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB_result.php" afterPath="$PROJECT_DIR$/www/system/database/DB_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/DB_utility.php" afterPath="$PROJECT_DIR$/www/system/database/DB_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/cubrid/cubrid_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mssql/mssql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysql/mysql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/mysqli/mysqli_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/oci8/oci8_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/odbc/odbc_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/pdo/pdo_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/postgre/postgre_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlite/sqlite_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="$PROJECT_DIR$/www/system/database/drivers/sqlsrv/sqlsrv_utility.php" />
     </list>
     <ignored path="btstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +31,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ajax_litera.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/resources/js/ajax_litera.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="27" selection-start="681" selection-end="681" vertical-scroll-proportion="0.3690304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -262,7 +216,11 @@
       <created>1360116778609</created>
       <updated>1360116778609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6 commit">
+      <created>1362135682095</created>
+      <updated>1362135682095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -287,13 +245,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1452" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3840782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1728838" sideWeight="0.6703911" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19784173" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19784173" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.4978479" order="7" side_tool="true" content_ui="tabs" />
@@ -303,7 +262,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -344,7 +302,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -359,6 +317,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Second Time" />
     <MESSAGE value="5 commit" />
+    <MESSAGE value="6 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,13 +325,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="45" selection-start="3049" selection-end="3049" vertical-scroll-proportion="1.281203">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/application/views/template/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.65384614">
@@ -470,6 +422,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.3076923">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources/js/libs/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
