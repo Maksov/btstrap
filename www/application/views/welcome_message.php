@@ -1,7 +1,7 @@
 
 
 <div class="container">
-    <h1>Welcome to CodeIgniter!</h1>
+ <h1>Welcome to CodeIgniter!</h1>
 <form action="" method="post" id="search-block-form">
 <p>
   <input type="radio" name="rbt" value="А">А</input>
@@ -34,6 +34,7 @@
 
 
 </form>
+
 
 </div>
 

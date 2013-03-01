@@ -38,7 +38,10 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "baddress";
+$route['otdel'] = "baddress/otdel";
+$route['search'] = "baddress/search";
+
 $route['404_override'] = '';
 
 

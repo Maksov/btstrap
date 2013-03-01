@@ -1,0 +1,111 @@
+.nomargin{
+margin:0;
+}
+.nomargin-left{
+    margin-left:0;
+}
+.nomargin-right{
+    margin-right:0;
+}
+.nomargin-top{
+    margin-top:0;
+}
+.nomargin-bottom{
+    margin-bottom:0;
+}
+
+.sign{
+    background: transparent url("http://btstrap/resources/images/sign.png") no-repeat left;
+    height: 99px;
+
+}
+.span1{
+    margin-left: 0;
+
+}
+/* Special grid styles
+-------------------------------------------------- */
+
+.show-grid {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.show-grid [class*="span"] {
+    background-color: #eee;
+    text-align: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.show-grid:hover [class*="span"] {
+    background: #ddd;
+}
+.show-grid .show-grid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.show-grid .show-grid [class*="span"] {
+    background-color: #ccc;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: .2em .2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-bottom: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li a, /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-nav li a {width: 20px;}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+}
+.ui-tabs-vertical {  }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 25px; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {  }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: left; }

@@ -1,4 +1,1 @@
-<footer id="footer" class="container">
-
-	
-</footer>
+<footer id="footer" class="container"></footer>
