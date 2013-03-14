@@ -1,22 +1,24 @@
       $.ajax({
-            url: "/ajax/ajax_litera/",
+          type: "post",
+          url: "/ajax/ajax_litera/",
             dataType: "json",
             success:   function (data,textStatus) {
-                    $("#content").html('');
-                    $("#content").append('<table class="table table-hover">' +
+                    $("#phones").html('');
+                    $("#phones").append('<table class="table table-hover">' +
                         '<thead> ' +
                             '<tr> ' +
-                                '<th>№</th> ' +
-                                '<th>title</th> ' +
-                                '<th>short_title</th> ' +
+                                '<th>ФИО</th> ' +
+                                '<th>Должность</th> ' +
+                                '<th>Отдел</th> ' +
+                                '<th>Тел. номер</th> ' +
+                                '<th>№ ВТС</th> ' +
                             '</tr>'+
                         '</thead>'+
                         '<tbody id="data-table">' +
                         '</tbody>' +
                         '</table>');
-
                     $.each(data, function (i, val) {
-                    $("#data-table").append('<tr> <td>'+val.id+'</td> <td>'+val.title+'</td> <td>'+val.short_title+'</td> </tr>');
+                    $("#data-table").append('<tr> <td>'+val.short_fio+'</td> <td>'+val.dolznost+'</td> <td>'+val.otdel+'</td> <td>' +val.phone_number+'</td> <td>'+val.phone_vts+'</td></tr>');
                 });
             }
         }); 

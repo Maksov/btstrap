@@ -16,11 +16,18 @@ class Ajax extends MY_Controller {
 
 
     public function ajax_litera() {
-
-        $sql=$this->db->query("SELECT * FROM adm_organ");
+        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+            redirect('/');
+            die();
+        }
+        $sql=$this->db->query("SELECT faces.short_fio, dolznost.title as dolznost, otdel.title as otdel, faces.room, faces.phone_number, faces.phone_vts
+                                FROM faces
+                                INNER JOIN dolznost ON faces.id_fk_dolz=dolznost.id
+                                INNER JOIN otdel ON faces.id_fk_otd=otdel.id");
         foreach ($sql->result() as $row)
         {
-            $rows[]=array("id"=>$row->id, "title"=>$row->title, "short_title"=>$row->short_title);
+            $rows[]=array("short_fio"=>$row->short_fio, "dolznost"=>$row->dolznost, "otdel"=>$row->otdel, "room"=>$row->room,
+                "phone_number"=>$row->phone_number, "phone_vts"=>$row->phone_vts);
         }
        echo preg_replace_callback(
            '/\\\u([0-9a-fA-F]{4})/',
@@ -39,57 +46,8 @@ class Ajax extends MY_Controller {
 
     }
 
-    function json_safe_encode($value) {
 
-        if (is_int($value)) {
-            return (string)$value;
-        } elseif (is_string($value)) {
-            $value = str_replace(array('\\', '/', '"', "\r", "\n", "\b", "\f", "\t"),
-                array('\\\\', '\/', '\"', '\r', '\n', '\b', '\f', '\t'), $value);
-            $convmap = array(0x80, 0xFFFF, 0, 0xFFFF);
-            $result = "";
-            for ($i = mb_strlen($value) - 1; $i >= 0; $i--) {
-                $mb_char = mb_substr($value, $i, 1);
-                if (mb_ereg("&#(\\d+);", mb_encode_numericentity($mb_char, $convmap, "UTF-8"), $match)) {
-                    $result = sprintf("\\u%04x", $match[1]) . $result;
-                } else {
-                    $result = $mb_char . $result;
-                }
-            }
-            return '"' . $result . '"';
-        } elseif (is_float($value)) {
-            return str_replace(",", ".", $value);
-        } elseif (is_null($value)) {
-            return 'null';
-        } elseif (is_bool($value)) {
-            return $value ? 'true' : 'false';
-        } elseif (is_array($value)) {
-            $with_keys = false;
-            $n = count($value);
-            for ($i = 0, reset($value); $i < $n; $i++, next($value)) {
-                if (key($value) !== $i) {
-                    $with_keys = true;
-                    break;
-                }
-            }
-        } elseif (is_object($value)) {
-            $with_keys = true;
-        } else {
-            return '';
-        }
-        $result = array();
-        if ($with_keys) {
-            foreach ($value as $key => $v) {
-                $result[] = json_safe_encode((string)$key) . ':' . json_safe_encode($v);
-            }
-            return '{' . implode(',', $result) . '}';
-        } else {
-            foreach ($value as $key => $v) {
-                $result[] = json_safe_encode($v);
-            }
-            return '[' . implode(',', $result) . ']';
-        }
-    }
+
 
 
 }

@@ -53,6 +53,7 @@ class MY_Controller extends CI_Controller{
 			$toMenu["pageName"] = $this->pageName;
 			$toHeader["nav"] = $this->load->view("template/nav",$toMenu,true);
 		}
+
 		$toHeader["basejs"] = $this->load->view("template/basejs",$this->data,true);
 		
 		$toBody["header"] = $this->load->view("template/header",$toHeader,true);
